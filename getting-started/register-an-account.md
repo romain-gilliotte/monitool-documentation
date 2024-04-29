@@ -2,7 +2,7 @@
 
 {% embed url="https://app.arcade.software/share/BtMCxZlXhwQUWUzd0qcn" %}
 
-Registering is simple and free. No credit cards details needed, we promess!
+Registering is simple and free. No credit cards details needed!
 
 ## Steps
 
