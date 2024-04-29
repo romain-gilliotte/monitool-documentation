@@ -1,6 +1,6 @@
 # What Is It?
 
-<figure><img src=".gitbook/assets/working-at-the-office-min.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/working-at-the-office-min-wide.png" alt=""><figcaption></figcaption></figure>
 
 Monitool is a platform to host, organize and share logical frameworks for humanitarian organizations.
 
