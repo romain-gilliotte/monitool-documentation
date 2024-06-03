@@ -15,9 +15,11 @@ However, we understand that sometimes you need to work offline, and that's why w
 
 In this simple case, download the template from Monitool, fill it with your data without worrying about internet connectivity, and then upload it to Monitool when you are back online.
 
-# Dealing with individual patient records
+# Dealing with disaggregated data
 
-Monitool is designed to work with aggregated data, such as the number of patients seen in a health center in a given day, or the number of children vaccinated in a given month. Disaggregated data, such as individual patient records, are not navitely supported.
+Monitool is designed to work with aggregated data, such as the number of patients seen in a health center in a given day, or the number of children vaccinated in a given month. Arbitrary levels of aggregation are supported, from daily to yearly, spliting the data by any dimension you want (e.g. gender, age, location, etc.).
+
+However, disaggregated data, such as individual patient records, are not navitely supported.
 
 This ensures that you can't accidentally expose personal data, but also frees you from the burden of managing personal data in your monitoring system and needing to comply with data protection regulations: you can keep the individual patient records in a secure place, and only upload the aggregated data in Monitool.
 
@@ -38,8 +40,8 @@ The steps are the following:
 
 You will probably use the following Excel formulas extensively:
 
-- [`COUNTIFS`](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842)
-- [`SUMIFS`](https://support.microsoft.com/en-au/office/sumifs-9bdc9d30-4277-4888-b606-ae9927a650bb)
+- [COUNTIFS](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842) Allows to count rows that meet multiple criteria
+- [SUMIFS](https://support.microsoft.com/en-au/office/sumifs-9bdc9d30-4277-4888-b606-ae9927a650bb) Allows to sum fields from rows that meet multiple criteria
 
 {% endhint %}
 
