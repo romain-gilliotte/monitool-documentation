@@ -1,6 +1,6 @@
 There are some things that Monitool is not, and it is important to be clear about them.
 
-## Nor a qualitative indicator management tool
+## Not a qualitative indicator management tool
 
 Qualitative indicators are measures that describe or assess the quality of certain aspects or characteristics, often based on subjective assessment. They often answer questions like "what kind?", "why?", or "how?".
 
@@ -20,6 +20,6 @@ If you need to digitally collect data in the field, you should look into tools l
 
 Integrating Monitool with a mobile data collection tool is of course possible, and encouraged using the [Excel data entry method](./data-entry/excel-data-entry.md).
 
-## Nor a beneficiary management tool
+## Not a beneficiary management tool
 
 Case management tools are designed to help organizations manage their interactions with beneficiaries, clients, or customers. They are used to track the services provided to each individual.
