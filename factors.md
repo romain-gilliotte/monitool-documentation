@@ -1,6 +1,6 @@
-Monitool is not alone in the world of data collection and analysis tools. There are many other tools that can be used for similar purposes, and some of them are even open-source. However, Monitool has some unique features.
+Monitool is not alone in the world of data collection and analysis tools. There are many other tools that can be used for similar purposes. However, Monitool has some unique features.
 
-## Tolerance to human error
+# Tolerance to human error
 
 The interface is designed to be tolerant to human error. No action from the interface can result in data loss, and all actions are logged and reversible ("who, what, when").
 
@@ -24,7 +24,7 @@ Indicators derived from data collected over different time periods can be automa
 
 This is useful when you have data collected at different frequencies (e.g. daily, weekly, monthly) and you want to mix and match them in the same indicator, which is a common situation when relying on national data sources.
 
-## Absence of personal data
+# Absence of personal data
 
 {% hint style="info" %}
 
@@ -32,7 +32,7 @@ We're not lawyers, but we believe that Monitool, when used as intended, should n
 
 {% endhint %}
 
-Disaggregated data, such as individual patient records, are not supported.
+Disaggregated data, such as individual patient records, are _not_ supported.
 
 This ensures that you can't accidentally expose personal data, but also frees you from the burden of managing personal data in your monitoring system and having to comply with data protection regulations for yet another system.
 
