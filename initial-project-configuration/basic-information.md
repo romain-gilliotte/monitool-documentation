@@ -1,7 +1,5 @@
 # Basic information
 
-To access the basic information section of a project, click on the "Basics" button in the left menu of the project configuration screen.
-
 The basic information section of a project is where you define the general information of the project, such as the project name, the project country, the project start and end dates.
 
 This information is used to:

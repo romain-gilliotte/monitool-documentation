@@ -2,9 +2,9 @@
 
 When creating a project in Monitool, you may be tempted to start with the data sources, and then move on to the logical frameworks.
 
-While this approach certainly works if you already have a clear idea of the whole monitoring and evaluation system, it is not the most efficient way to get started and build as you go.
+While this approach certainly works if you already have a clear idea of the whole monitoring and evaluation system of your project, it is not the most efficient way to get started and build as you go.
 
-You may find yourself creating data sources that you don't need, or that you need to change later on, as you refine your logical framework.
+You may find yourself collecting data that you don't need, or need to refactor your project structure as you refine your logical framework.
 
 The recommended order for setting up a project in Monitool is as follows
 
@@ -26,7 +26,7 @@ Iterate as many times as needed
 
 Once you are satisfied with the structure of your logical framework, [add the indicators](./indicators.md) that will be used to measure the progress of your project without worrying about how they will be computed.
 
-When adding an indicator, you will be asked to select a computation method. Leave the default value "It is not possible to compute this indicator" for now, as you will add the data sources later.
+When adding an indicator, you will be asked to select a computation method. Leave the default value `It is not possible to compute this indicator` for now, as you will add the data sources later.
 
 ## 4. Computing your first indicator
 
@@ -40,7 +40,7 @@ The question you should ask yourself is:
 
 In the case that you can't answer these questions, don't hesitate to go back to the logical framework and refine it.
 
-### Create the data source or sources for that indicator
+### 4.1. Create the data source(s) for that indicator
 
 Once you have answered these questions, you are ready to [create the data sources](./data-source.md) that will be used to collect the data needed to compute this particular indicator.
 
@@ -53,9 +53,20 @@ If you are measuring the rate of antenatal consultations in a community, you may
 
 Most indicators will only require one data source, but some may require more than one.
 
-### Update the indicator definition
+### 4.2. Update the indicator definition
 
 Once you have created the data sources, you can go back to the indicator and update its definition to include the data sources that will be used to compute it.
+
+### 4.3. Create invitations
+
+Assigning each data source to the people responsible for collecting and entering the data is a crucial step.
+
+This is done by creating [user invitations](./invite-other-users.md) as you go.
+
+When assigning a data source to a user, you are doing two things at once:
+
+- Documenting who is responsible for collecting the data
+- Ensuring users will have access to the right sections in the data-entry interface
 
 ## 5. Computing the next indicators
 
