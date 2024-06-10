@@ -1,4 +1,4 @@
-# Site
+# Sites
 
 The site section of a project is where you define the locations where your project will be implemented.
 

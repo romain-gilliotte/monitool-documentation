@@ -27,7 +27,7 @@
   - [Using pivot tables](reporting/using-pivot-tables.md)
 - [Advanced Concepts](advanced-concepts/README.md)
   - [Project templates](advanced-concepts/project-templates.md)
-  - [Advanced aggregation modes](advanced-concepts/advanced-aggregation-modes.md)
+  - [Agregation modes](advanced-concepts/aggregation-modes.md)
   - [Custom indicator formulas](advanced-concepts/custom-indicator-formulas.md)
   - [Data interpolation](advanced-concepts/data-interpolation.md)
   - [Modifying the structure of forms after data has already been entered](advanced-concepts/modifying-the-structure-of-forms-after-data-has-already-been-entered.md)
