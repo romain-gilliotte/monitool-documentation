@@ -1,8 +1,9 @@
 # Data Source
 
+## What is a data source?
+
 {% hint style="info" %}
 Resist the temptation to put all the data that you need to compute your indicators in a single data source.
-
 By doing so your risk loosing most of what makes Monitool useful:
 
 - Track the quality and progress of data collection
@@ -10,8 +11,6 @@ By doing so your risk loosing most of what makes Monitool useful:
 - Highlight data that is missing
 
 {% endhint %}
-
-## What is a data source?
 
 Data sources should represent a single source of data that is backed by actual data collection in the field.
 It describe how and when data is collected to compute indicators.
