@@ -37,9 +37,11 @@ You can restore a deleted site by using the `History` feature.
 
 # Grouping sites
 
+{% embed url="https://app.arcade.software/share/0UVBe4YXLPOdvDSs9aGy" %}
+
 You can group sites together at this stage.
 
-This is useful when you have a large number of sites which share common characteristics, such as being in the same region, or being managed by the same organization, or funded by the same donor.
+This is useful when you have a large number of sites which share common characteristics, such as being in the same region, or being managed by the same organization, or funded by the same donor. Note that groups are not mutually exclusive, a site can belong to multiple groups!
 
 Later on, this will allow you to:
 
