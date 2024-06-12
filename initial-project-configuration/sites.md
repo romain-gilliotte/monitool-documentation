@@ -11,6 +11,8 @@ Locations can be as broad as a country, or as specific as a consultation room in
 
 Keep in mind that the data-entry interface will be organized by location, so more locations mean more work for the data-entry users!
 
+{% embed url="https://app.arcade.software/share/MtCyfpl6WHElkeZRen8J" %}
+
 ## Adding a site
 
 You can add as many sites as you need, and you can always come back to this section to add more sites at any time in the life of your project.

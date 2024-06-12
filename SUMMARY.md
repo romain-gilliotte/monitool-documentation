@@ -12,9 +12,9 @@
   - [Basic information](initial-project-configuration/basic-information.md)
   - [Sites](initial-project-configuration/sites.md)
   - [Data Source](initial-project-configuration/data-source.md)
-  <!-- - [Logical Framework](initial-project-configuration/logical-framework.md)
+  - [Logical Framework](initial-project-configuration/logical-framework.md)
   - [Invite other users](initial-project-configuration/invite-other-users.md)
-  - [Indicators](initial-project-configuration/indicators.md) -->
+  - [Indicators](initial-project-configuration/indicators.md)
 - [Data Entry](data-entry/README.md)
   - [Online data entry](data-entry/online-data-entry.md)
   - [Excel data entry](data-entry/excel-data-entry.md)
