@@ -61,9 +61,11 @@ This would give you the following table in reports:
 
 Note that the total is not computed: you will be able to see totals by month for the whole project, but not by location.
 
-### Example 3: Satisfaction score
+### Example 3: Score of quality
 
-When you track a satisfaction score, you will most likely want to average the data in reports.
+{% embed url="https://app.arcade.software/share/KqSDNxrXl6r8eDPu6Vz8" %}
+
+When you track scores, you will most likely want to average the data in reports.
 
 | Satisfaction score | January | February | March | Total |
 | ------------------ | ------- | -------- | ----- | ----- |

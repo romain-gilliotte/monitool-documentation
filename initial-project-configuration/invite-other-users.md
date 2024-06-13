@@ -12,6 +12,20 @@ Inviting new users is done from the Configuration view of your project. You can 
 
 Note that the email address you use to invite a user must be the same as the one they use to log in to Monitool. If they don't have an account yet, they can create one using the same email address they received the invitation on.
 
-## Accepting an invitation
+## Accepting or refusing invitations
+
+{% embed url="https://app.arcade.software/share/xvoUpaxxC4hwzICBULrJ" %}
 
 When you invite a new user, they will receive an email to inform them that they have been invited to a Monitool project. The link will take them to the Monitool login page, where they can either log in with an existing account or create a new account.
+
+Once there, they can check out the list of projects they have been invited to and accept or refuse the invitations.
+
+When an invitation is refused by mistake, you can always come back to the Configuration view of your project and invite the user again.
+
+## Leaving a project
+
+{% embed url="https://app.arcade.software/share/bUjm8t1G3PAPIHhyCvzP" %}
+
+You can leave a project that you have been invited to at any point.
+
+Simply open the context menu in the project list, and click on "Remove from my projects".

@@ -1,5 +1,3 @@
-# Basic Navigation
-
 Welcome to Monitool!
 
 Let's start by exploring the main features of the platform. In Monitool, we don't talk about databases, queries, dimensions, joins...
