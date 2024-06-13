@@ -16,4 +16,17 @@ The form will also include a QR code that will help the platform identify the fo
 
 ## Uploading pictures of paper forms
 
+{% embed url="https://app.arcade.software/share/VoCnn6SAqOg42MUx4vC1 %}
+
 When you have collected the paper forms, you can upload the pictures in the platform. The platform will process the images, and extract the tabular data from the forms to make it easier to enter the data.
+
+### Supported file types
+
+Multiple types of files are supported for the upload of paper forms, including:
+
+- A single picture of a form
+- A bunch of pictures at once
+- PDF files with as many pages as you want
+- ZIP files with images or PDFs
+
+If you are receiving the pictures by whatsapp, you simply drag & drop from [Whatsapp Web](https://web.whatsapp.com/) conversations.
