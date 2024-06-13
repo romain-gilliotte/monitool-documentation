@@ -16,7 +16,7 @@ The form will also include a QR code that will help the platform identify the fo
 
 ## Uploading pictures of paper forms
 
-{% embed url="https://app.arcade.software/share/VoCnn6SAqOg42MUx4vC1 %}
+{% embed url="https://app.arcade.software/share/VoCnn6SAqOg42MUx4vC1" %}
 
 When you have collected the paper forms, you can upload the pictures in the platform. The platform will process the images, and extract the tabular data from the forms to make it easier to enter the data.
 
