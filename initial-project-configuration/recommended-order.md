@@ -53,11 +53,7 @@ If you are measuring the rate of antenatal consultations in a community, you may
 
 Most indicators will only require one data source, but some may require more than one.
 
-### 4.2. Update the indicator definition
-
-Once you have created the data sources, you can go back to the indicator and update its definition to include the data sources that will be used to compute it.
-
-### 4.3. Create invitations
+### 4.2. Create invitations
 
 Assigning each data source to the people responsible for collecting and entering the data is a crucial step.
 
@@ -67,6 +63,10 @@ When assigning a data source to a user, you are doing two things at once:
 
 - Documenting who is responsible for collecting the data
 - Ensuring users will have access to the right sections in the data-entry interface
+
+### 4.3. Update the indicator definition
+
+Once you have created the data sources, you can go back to the indicator and update its definition to include the data sources that will be used to compute it.
 
 ## 5. Computing the next indicators
 

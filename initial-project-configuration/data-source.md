@@ -1,7 +1,3 @@
-# Data Source
-
-## What is a data source?
-
 {% hint style="info" %}
 Resist the temptation to put all the data that you need to compute your indicators in a single data source.
 By doing so your risk loosing most of what makes Monitool useful:
@@ -11,6 +7,10 @@ By doing so your risk loosing most of what makes Monitool useful:
 - Highlight data that is missing
 
 {% endhint %}
+
+# What is a data source?
+
+## Definition
 
 Data sources should represent a single source of data that is backed by actual data collection in the field.
 It describe how and when data is collected to compute indicators.
@@ -48,7 +48,36 @@ For example, a data source could be a report from field staff, with the followin
 
 In this example, the data source has 3 variables, and variables 1 and 2 have disaggregations.
 
-## Understanding the variable creation process
+# Creating your first data source
+
+## Calendar
+
+{% embed url="https://app.arcade.software/share/1zQWNLHAiyFRifRKaUUl" %}
+
+The calendar section of the form defines where and when the data is collected.
+
+### Location
+
+The location configuration is based on the [Collection Sites](./sites.md) that you have previously created. You can select individual sites, or groups of sites.
+
+### Frequency
+
+Depending on the context of your project, you can choose to collect data at different frequencies.
+
+From the more frequent to the less frequent:
+
+- Daily: Rarely used on a monitoring context (indicators are not tracked daily), but can be useful when Monitool is used for data collection for field activities.
+- Weekly, splitted by month:
+  - When a week overlaps two months, two separate forms will need to be filled for the start and end of the week
+  - This allows to have exact numbers when aggregating week data into months in reports
+  - You can choose to start the weeks on Saturday, Sunday or Monday, [depending on the project's location](https://en.wikipedia.org/wiki/Week#/media/File:First_Day_of_Week_World_Map.svg).
+- Weekly:
+  - Same as previous, but without form duplication when a week overlaps two months
+- Monthly, Quaterly and Year: for less frequent data.
+
+Note that when using the weekly periodicity, and aggregating data by month, the data will be attached to the month where most days of the overlapping week are.
+
+## Variables
 
 Creating a variable is a four-step process:
 
@@ -57,7 +86,15 @@ Creating a variable is a four-step process:
 3. **Define the disaggregations**: Define the different ways in which the data can be disaggregated
 4. **Configure the data entry form**: Define how the data will be entered in the system
 
+### Defining the variable
+
+{% embed url="https://app.arcade.software/share/fzo6j1xiitdyz9Kyt99G" %}
+
+This is by far the quickest step: you only need to name them!
+
 ### Aggregation methods
+
+{% embed url="https://app.arcade.software/share/KqSDNxrXl6r8eDPu6Vz8" %}
 
 The aggregation method defines how the data will be aggregated in reports. For example, if you are tracking the number of people reached, you will most likely want to sum the data in reports.
 
