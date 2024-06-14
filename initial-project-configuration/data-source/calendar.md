@@ -2,11 +2,11 @@
 
 The calendar section of the form defines where and when the data is collected.
 
-### Location
+## Location
 
 The location configuration is based on the [Collection Sites](./sites.md) that you have previously created. You can select individual sites, or groups of sites.
 
-### Frequency
+## Frequency
 
 Depending on the context of your project, you can choose to collect data at different frequencies.
 
