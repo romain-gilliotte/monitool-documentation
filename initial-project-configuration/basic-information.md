@@ -1,5 +1,7 @@
 # Basic information
 
+{% embed url="https://app.arcade.software/share/Vuo8H0cVDZlmhzpybpGE" %}
+
 The basic information section of a project is where you define the general information of the project, such as the project name, the project country, the project start and end dates.
 
 This information is used to:
