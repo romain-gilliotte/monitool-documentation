@@ -31,17 +31,3 @@ It can be tempting to track all the data that you can think of, but remember tha
 Start by tracking the **minimum amount** of data that you need to compute your indicators. If you find that you need more data, you can always add more at a later stage.
 
 We recommend following the [recommended order](./recommended-order.md) for setting up a project in Monitool. It will help you to focus on the most important data first.
-
-## Anatomy of a data source
-
-A data-source is composed of a list of variables (or "measures"), which in turn can be composed of multiple disaggregations.
-
-For example, a data source could be a report from field staff, with the following variables:
-
-| Variable                                        | Disaggregations                     |
-| ----------------------------------------------- | ----------------------------------- |
-| Number of people reached                        | Service provided, gender, age group |
-| Number of people who received a follow-up visit | Service provided                    |
-| Number of people who received a referral        |                                     |
-
-In this example, the data source has 3 variables, and variables 1 and 2 have disaggregations.

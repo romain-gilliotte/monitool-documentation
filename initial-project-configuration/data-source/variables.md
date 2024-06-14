@@ -1,3 +1,17 @@
+A data-source is composed of a list of variables (or "measures"), which in turn can be composed of multiple disaggregations.
+
+For example, a data source could be a report from field staff, with the following variables:
+
+| Variable                                        | Disaggregations                     |
+| ----------------------------------------------- | ----------------------------------- |
+| Number of people reached                        | Service provided, gender, age group |
+| Number of people who received a follow-up visit | Service provided                    |
+| Number of people who received a referral        |                                     |
+
+In this example, the data source has 3 variables, and variables 1 and 2 have disaggregations.
+
+# Creating a variable
+
 Creating a variable is a four-step process:
 
 1. **Define the variable**: Give it a name
@@ -5,13 +19,15 @@ Creating a variable is a four-step process:
 3. **Define the disaggregations**: Define the different ways in which the data can be disaggregated
 4. **Configure the data entry form**: Define how the data will be entered in the system
 
-### Defining the variable
+## Defining the variable
 
 {% embed url="https://app.arcade.software/share/fzo6j1xiitdyz9Kyt99G" %}
 
 This is by far the quickest step: you only need to name them!
 
-### Aggregation methods
+As those names will be used in reports and data entry forms, make sure they are concise.
+
+## Aggregation methods
 
 {% embed url="https://app.arcade.software/share/KqSDNxrXl6r8eDPu6Vz8" %}
 
@@ -19,9 +35,15 @@ The aggregation method defines how the data will be aggregated in reports. For e
 
 A specific page is dedicated to [aggregation methods](./aggregation-modes.md).
 
-### Disaggregations
+## Disaggregations
 
-Disaggregations are a simple concept: it represent the different ways in which the data can be broken down. For example, if you are tracking the number of people reached, you might want to break it down by gender, age group, etc.
+{% embed url="https://app.arcade.software/share/AtsADgwdwLwKUsNR2CmA" %}
+
+Disaggregations are a simple concept: they represent the different ways in which the data can be broken down. For example, if you are tracking the number of people reached, you might want to break it down by gender, age group, etc.
+
+Use them wisely: the more disaggregations you have, the more complex the data entry form will be!
+
+When you define disaggregations, you can group their elements. This is useful for reports, as it allows you to group disaggregations together.
 
 {% hint style="warning" %}
 
@@ -30,7 +52,7 @@ Check out the [reducing form size](./reducing-form-size.md) guide.
 
 {% endhint %}
 
-### Data entry layout
+## Data entry layout
 
 {% embed url="https://app.arcade.software/share/MXkjj4WzPFlF9Ltjq0ub" %}
 
