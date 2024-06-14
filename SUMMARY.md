@@ -19,13 +19,15 @@
   - [Online data entry](data-entry/online-data-entry.md)
   - [Excel data entry](data-entry/excel-data-entry.md)
   - [Paper form data entry](data-entry/paper-form-data-entry.md)
-  <!-- - [Reporting](reporting/README.md)
+  <!--- [Change tracking](data-entry/change-tracking.md)
+  - [Reporting](reporting/README.md)
   - [Using general reporting](reporting/using-general-reporting.md)
   - [Using pivot tables](reporting/using-pivot-tables.md) -->
 - [Advanced Concepts](advanced-concepts/README.md)
   - [Project templates](advanced-concepts/project-templates.md)
+  - [Project Archival](advanced-concepts/project-archival.md)
   - [Agregation modes](advanced-concepts/aggregation-modes.md)
+  - [Reducing form size](advanced-concepts/reducing-form-size.md)
   <!-- - [Custom indicator formulas](advanced-concepts/custom-indicator-formulas.md)
   - [Data interpolation](advanced-concepts/data-interpolation.md)
   - [Modifying the structure of forms after data has already been entered](advanced-concepts/modifying-the-structure-of-forms-after-data-has-already-been-entered.md) -->
-- [Project Archival](project-archival.md)

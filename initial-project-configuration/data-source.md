@@ -66,7 +66,10 @@ Depending on the context of your project, you can choose to collect data at diff
 
 From the more frequent to the less frequent:
 
-- Daily: Rarely used on a monitoring context (indicators are not tracked daily), but can be useful when Monitool is used for data collection for field activities.
+- Daily:
+  - Seldomly used on a monitoring context (indicators are not tracked daily)
+  - Can be useful when Monitool is used for data collection for field activities.
+  - Beware of making data-entry in the platform too costly!
 - Weekly, splitted by month:
   - When a week overlaps two months, two separate forms will need to be filled for the start and end of the week
   - This allows to have exact numbers when aggregating week data into months in reports
@@ -104,28 +107,18 @@ A specific page is dedicated to [aggregation methods](../advanced-concepts/aggre
 
 Disaggregations are a simple concept: it represent the different ways in which the data can be broken down. For example, if you are tracking the number of people reached, you might want to break it down by gender, age group, etc.
 
-The difficulty with disaggregations is that there are trade-offs to be made:
+{% hint style="warning" %}
 
-- Between the precision of the data and the time it takes to collect it
-- Between having few variables with many disaggregations, or many variables with few disaggregations
+The number of fields in form grows exponentially with the number of disaggregations for any given variable.
+Check out the [reducing form size](../advanced-concepts/reducing-form-size.md) guide.
 
-Remember that because Monitool [does not support disaggregated data](../limits.md), the size of the form grows exponentially with the number of disaggregations.
+{% endhint %}
 
-Usually, those forms are not meant to be filled by hand, but rather to be filled using the [Excel data entry method](../data-entry/excel-data-entry.md), it is still important to keep them manageable. Consider forms with more than 50 fields as a warning flag and a certainty for a lot of data entry errors.
+### Data entry layout
 
-| # of disaggregations | # of elements in each disaggregation | # of fields in the form for that variable |
-| -------------------- | ------------------------------------ | ----------------------------------------- |
-| 0                    | -                                    | 1                                         |
-| 1                    | 3                                    | 3                                         |
-| 2                    | 3                                    | 9 (3 x 3)                                 |
-| 3                    | 3                                    | 27 (3 x 3 x 3)                            |
-| 4                    | 3                                    | 81!!! (3 x 3 x 3 x 3)                     |
+{% embed url="https://app.arcade.software/share/MXkjj4WzPFlF9Ltjq0ub" %}
 
-### Data entry form configuration
+The data entry layout fields are only displayed when you use disaggregations: they defines the layout of the table that will be used to enter the data.
 
-The data entry form configuration is only needed when you use disaggregations: it defines the layout of the table that will be used to enter the data.
-
-It is done in two steps:
-
-- Chosing the structure of the table (e.g. do you want a table with 2 columns and 3 rows, or 2 columns and 3 rows?)
-- Chosing which disaggregations will be columns and which will be rows
+- Choose the structure of the table (e.g. do you want a table with 2 columns and 3 rows, or 2 columns and 3 rows?)
+- Choose which disaggregations will be columns and which will be rows
