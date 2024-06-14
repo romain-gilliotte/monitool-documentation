@@ -1,8 +1,8 @@
 # Table of contents
 
 - [What Is It?](README.md)
-- [Differentiating factors](factors.md)
-- [Limits](limits.md)
+  - [Differentiating factors](what-is-it/factors.md)
+  - [Limits](what-is-it/limits.md)
 - [Getting Started](getting-started/README.md)
   - [Register an account](getting-started/register-an-account.md)
   - [Basic Navigation](getting-started/basic-navigation.md)
@@ -11,7 +11,11 @@
   - [Recommended order](initial-project-configuration/recommended-order.md)
   - [Basic information](initial-project-configuration/basic-information.md)
   - [Sites](initial-project-configuration/sites.md)
-  - [Data Source](initial-project-configuration/data-source.md)
+  - [Data Source](initial-project-configuration/data-source/README.md)
+    - [Calendar](initial-project-configuration/data-source/calendar.md)
+    - [Variables](initial-project-configuration/data-source/variables.md)
+    - [Agregation modes](initial-project-configuration/data-source/aggregation-modes.md)
+    - [Reducing form size](initial-project-configuration/data-source/reducing-form-size.md)
   - [Logical Framework](initial-project-configuration/logical-framework.md)
   - [Invite other users](initial-project-configuration/invite-other-users.md)
   - [Indicators](initial-project-configuration/indicators.md)
@@ -26,8 +30,6 @@
 - [Advanced Concepts](advanced-concepts/README.md)
   - [Project templates](advanced-concepts/project-templates.md)
   - [Project Archival](advanced-concepts/project-archival.md)
-  - [Agregation modes](advanced-concepts/aggregation-modes.md)
-  - [Reducing form size](advanced-concepts/reducing-form-size.md)
   <!-- - [Custom indicator formulas](advanced-concepts/custom-indicator-formulas.md)
   - [Data interpolation](advanced-concepts/data-interpolation.md)
   - [Modifying the structure of forms after data has already been entered](advanced-concepts/modifying-the-structure-of-forms-after-data-has-already-been-entered.md) -->
