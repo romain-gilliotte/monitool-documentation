@@ -14,3 +14,9 @@ In monitool, a logframe is composed of the following elements:
 - Activities, which are the tasks that need to be done to reach the outputs
 
 For each of these elements, you can define indicators that will be used to measure the progress of the project.
+
+## Why multiple logframes?
+
+Usually projects have a single logframe that defines the project's goals, objectives, and activities. However, in some cases, you may want to have multiple logframes.
+
+This is generally done when you have multiple donors that require different logframes, or when the logframe evolves each year. In this case, you can create a new logframe each year by copying the previous year's logframe and updating it.

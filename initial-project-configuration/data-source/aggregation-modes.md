@@ -63,7 +63,7 @@ Note that the total is not computed: you will be able to see totals by month for
 
 ### Example 3: Score of quality
 
-{% embed url="https://app.arcade.software/share/KqSDNxrXl6r8eDPu6Vz8" %}
+{% @arcade/embed flowId="KqSDNxrXl6r8eDPu6Vz8" url="https://app.arcade.software/share/KqSDNxrXl6r8eDPu6Vz8" %}
 
 When you track scores, you will most likely want to average the data in reports.
 

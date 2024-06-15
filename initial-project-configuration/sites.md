@@ -11,7 +11,7 @@ Keep in mind that the data-entry interface will be organized by location, so mor
 
 ## Adding a site
 
-{% embed url="https://app.arcade.software/share/MtCyfpl6WHElkeZRen8J" %}
+{% @arcade/embed flowId="MtCyfpl6WHElkeZRen8J" url="https://app.arcade.software/share/MtCyfpl6WHElkeZRen8J" %}
 
 You can add as many sites as you need, and you can always come back to this section to add more sites at any time in the life of your project.
 
@@ -23,7 +23,7 @@ Adding sites is a simple process:
 
 ## Handling inactive or closed sites
 
-{% embed url="https://app.arcade.software/share/Cbalb7BnKsHrXbQeORx7" %}
+{% @arcade/embed flowId="Cbalb7BnKsHrXbQeORx7" url="https://app.arcade.software/share/Cbalb7BnKsHrXbQeORx7" %}
 
 It's common to have sites that are no longer active, or that have been closed.
 
@@ -37,7 +37,7 @@ You can restore a deleted site by using the `History` feature.
 
 # Grouping sites
 
-{% embed url="https://app.arcade.software/share/0UVBe4YXLPOdvDSs9aGy" %}
+{% @arcade/embed flowId="0UVBe4YXLPOdvDSs9aGy" url="https://app.arcade.software/share/0UVBe4YXLPOdvDSs9aGy" %}
 
 You can group sites together at this stage.
 

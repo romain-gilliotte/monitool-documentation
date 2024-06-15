@@ -13,11 +13,15 @@ To do so simply click on the "▶ Open" button on the Gondwana project card in t
 
 ### General Reporting
 
+![General Reporting](../.gitbook/assets/Gondwana%20-%20Reporting.png)
+
 Your first destination should be the [General Reporting](../reporting/using-general-reporting.md) section of the Gondwana project.
 
 This section will give you an overview of how monitoring data can be used to gain insights on a project and generate reports.
 
 ### Data Entry
+
+![Data Entry](../.gitbook/assets/Gondwana%20-%20Data%20entry.png)
 
 You can also visit the Data Entry section of the Gondwana project to see how data is entered in Monitool.
 
@@ -26,6 +30,8 @@ Click on the [HMIS Extraction (PHC)](../data-entry/online-data-entry.md) form in
 This section will give you an overview of how data can be entered. You can also try to enter some data to see how it works. Note that data can also be entered [using Excel](../data-entry/excel-data-entry.md) files or [paper forms](../data-entry/paper-form-data-entry.md).
 
 ### Downloads
+
+![Downloads](../.gitbook/assets/Gondwana%20-%20Downloads.png)
 
 You can then switch to the "Downloads" section of the Gondwana project to check out the logical framework and paper forms export features.
 
@@ -39,6 +45,8 @@ To open the "Configuration-view" of the Gondwana project, click on the "⚙ Conf
 
 ### Data sources
 
+![Data sources](../.gitbook/assets/Gondwana%20-%20Data%20source.png)
+
 You can start by visiting the [Data sources](../initial-project-configuration/data-source.md) section of the Gondwana project to see how data sources are set up.
 
 A data source represent a process that generates data that you want to bring into monitool.
@@ -46,6 +54,8 @@ A data source represent a process that generates data that you want to bring int
 It can be technical, like databases, a HMIS systems, but most of the time simple things are used, like tally sheets to report the number of patients seen in a health center in a given day.
 
 ### Logical Frameworks
+
+![Logical Frameworks](../.gitbook/assets/Gondwana%20-%20logframe.png)
 
 You can then visit the [Logical Frameworks](../initial-project-configuration/logical-framework.md) section of the Gondwana project to see how logical frameworks are set up.
 

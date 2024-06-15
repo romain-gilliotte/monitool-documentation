@@ -12,7 +12,7 @@ To create it follow the same steps as for [creating a regular project](../initia
 
 ## Cloning project template
 
-{% embed url="https://app.arcade.software/share/C67OviAbHp6CEBrf6eqj" %}
+{% @arcade/embed flowId="C67OviAbHp6CEBrf6eqj" url="https://app.arcade.software/share/C67OviAbHp6CEBrf6eqj" %}
 
 To create a new project based on a template:
 

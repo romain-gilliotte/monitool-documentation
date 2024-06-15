@@ -12,11 +12,11 @@ If you are following the [recommended order](../recommended-order.md) all indica
 
 To create an indicator, follow these steps:
 
-* Click on `Add indicator` in a section of a logical framework (e.g. `Objectives`, `Results`, `Activities`), or in the `Extra indicators` page.
-* Enter the name of the indicator.
-* If relevant enter a baseline value and a target value. These values are used to calculate the progress of the indicator. Check the `Colorize` checkbox to colorize the progress of the indicator in reports.
-* Click on `Apply changes`.
-* Save the logical framework.
+- Click on `Add indicator` in a section of a logical framework (e.g. `Objectives`, `Results`, `Activities`), or in the `Extra indicators` page.
+- Enter the name of the indicator.
+- If relevant enter a baseline value and a target value. These values are used to calculate the progress of the indicator. Check the `Colorize` checkbox to colorize the progress of the indicator in reports.
+- Click on `Apply changes`.
+- Save the logical framework.
 
 ## Computation
 
@@ -26,11 +26,13 @@ If your indicator cannot be computed with one of the predefined formulas, you ca
 
 ### Predefined formulas
 
+{% @arcade/embed flowId="PA2MQ6kI6wJS1akEI6AZ" url="https://app.arcade.software/share/PA2MQ6kI6wJS1akEI6AZ" %}
+
 There are only three predefined formulas:
 
-* Copy a variable from a data source as is.
-* Compute a percentage from two variables (in the same data source or not).
-* Compute a permillage from two variables (in the same data source or not).
+- Copy a variable from a data source as is.
+- Compute a percentage from two variables (in the same data source or not).
+- Compute a permillage from two variables (in the same data source or not).
 
 Select the formula that best fits your needs and link the data sources to the indicator.
 
@@ -40,7 +42,7 @@ Select the formula that best fits your needs and link the data sources to the in
 
 The syntax for the formula is similar to a spreadsheet formula, with the difference that you can use any name (without the space character) to refer to a data source.
 
-For example, if you have a variable named `Number of beneficiaries` you can refer to it in the formula as `Numberofbeneficiaries` or `x` or `num_befs`. The name itself does not matter, as long as it is unique in the formula.
+For example, if you have a variable named `Number of beneficiaries` you can refer to it in the formula as `numberofbeneficiaries` or `x` or `num_befs`. The name itself does not matter, as long as it is unique in the formula. Also note that the names are case sensitive, so `numberofbeneficiaries` is different from `NumberOfBeneficiaries`.
 
 | Operator | Description    | Use for                                         | Example                                               |
 | -------- | -------------- | ----------------------------------------------- | ----------------------------------------------------- |
@@ -49,3 +51,11 @@ For example, if you have a variable named `Number of beneficiaries` you can refe
 | `*`      | Multiplication | Aggregate multiple scores into one with weights | `score_hygiene * 2 + score_satisfaction`              |
 | `/`      | Division       | Compute percentages                             | `100 * consultations_attended / consultations_missed` |
 | `\|\|`   | Default value  | Replace missing variables by provided number    | `(mobile_consultations \|\| 0)`                       |
+
+## Using desaggregation in indicators
+
+{% @arcade/embed flowId="g5DNLgx8ew5T5GWlwkdv" url="https://app.arcade.software/share/g5DNLgx8ew5T5GWlwkdv" %}
+
+You may want to compute indicators which include only some age groups, gender, or other disaggregation elements.
+
+This is done by selecting the appropriate values on the right side of the indicator creation form. You can select multiple values for each disaggregation element. You can also use the `All` option to include all values for a given disaggregation element.
