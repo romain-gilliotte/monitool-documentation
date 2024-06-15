@@ -1,4 +1,4 @@
-{% @arcade/embed flowId="1zQWNLHAiyFRifRKaUUl" url="https://app.arcade.software/share/1zQWNLHAiyFRifRKaUUl" %}
+{% embed url="https://app.arcade.software/share/1zQWNLHAiyFRifRKaUUl" %}
 
 The calendar section of the form defines where and when the data is collected.
 

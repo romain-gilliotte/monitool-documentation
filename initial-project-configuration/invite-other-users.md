@@ -6,7 +6,7 @@ Invited users can't access the configuration view of the project, so they can't 
 
 ## Inviting a new user on your project
 
-{% @arcade/embed flowId="FSfgi82EGEQAIDAHmnsY" url="https://app.arcade.software/share/FSfgi82EGEQAIDAHmnsY" %}
+{% embed url="https://app.arcade.software/share/FSfgi82EGEQAIDAHmnsY" %}
 
 Inviting new users is done from the Configuration view of your project. You can invite as many users as you need, and you can always come back to this section to invite more users at any time in the life of your project.
 
@@ -14,7 +14,7 @@ Note that the email address you use to invite a user must be the same as the one
 
 ## Accepting or refusing invitations
 
-{% @arcade/embed flowId="xvoUpaxxC4hwzICBULrJ" url="https://app.arcade.software/share/xvoUpaxxC4hwzICBULrJ" %}
+{% embed url="https://app.arcade.software/share/xvoUpaxxC4hwzICBULrJ" %}
 
 When you invite a new user, they will receive an email to inform them that they have been invited to a Monitool project. The link will take them to the Monitool login page, where they can either log in with an existing account or create a new account.
 
@@ -24,7 +24,7 @@ When an invitation is refused by mistake, you can always come back to the Config
 
 ## Leaving a project
 
-{% @arcade/embed flowId="bUjm8t1G3PAPIHhyCvzP" url="https://app.arcade.software/share/bUjm8t1G3PAPIHhyCvzP" %}
+{% embed url="https://app.arcade.software/share/bUjm8t1G3PAPIHhyCvzP" %}
 
 You can leave a project that you have been invited to at any point.
 

@@ -6,7 +6,7 @@ In Monitool, indicators are always linked to one or more data sources. This mean
 
 ## How to create an indicator
 
-{% @arcade/embed flowId="3ooz37r23FyeMcSx2MVC" url="https://app.arcade.software/share/3ooz37r23FyeMcSx2MVC" %}
+{% embed url="https://app.arcade.software/share/3ooz37r23FyeMcSx2MVC" %}
 
 If you are following the [recommended order](../recommended-order.md) all indicators always start their life as "non computable". This means that the indicator is created, but it is not yet linked to any data sources. You'll come back later to connect it.
 
@@ -26,7 +26,7 @@ If your indicator cannot be computed with one of the predefined formulas, you ca
 
 ### Predefined formulas
 
-{% @arcade/embed flowId="PA2MQ6kI6wJS1akEI6AZ" url="https://app.arcade.software/share/PA2MQ6kI6wJS1akEI6AZ" %}
+{% embed url="https://app.arcade.software/share/PA2MQ6kI6wJS1akEI6AZ" %}
 
 There are only three predefined formulas:
 
@@ -38,7 +38,7 @@ Select the formula that best fits your needs and link the data sources to the in
 
 ### Custom formulas
 
-{% @arcade/embed flowId="1qNycwQtuxS8A6pSngTW" url="https://app.arcade.software/share/1qNycwQtuxS8A6pSngTW" %}
+{% embed url="https://app.arcade.software/share/1qNycwQtuxS8A6pSngTW" %}
 
 The syntax for the formula is similar to a spreadsheet formula, with the difference that you can use any name (without the space character) to refer to a data source.
 
@@ -54,7 +54,7 @@ For example, if you have a variable named `Number of beneficiaries` you can refe
 
 ## Using desaggregation in indicators
 
-{% @arcade/embed flowId="g5DNLgx8ew5T5GWlwkdv" url="https://app.arcade.software/share/g5DNLgx8ew5T5GWlwkdv" %}
+{% embed url="https://app.arcade.software/share/g5DNLgx8ew5T5GWlwkdv" %}
 
 You may want to compute indicators which include only some age groups, gender, or other disaggregation elements.
 

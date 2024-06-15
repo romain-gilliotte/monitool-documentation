@@ -1,6 +1,6 @@
 # Register an account
 
-{% @arcade/embed flowId="BtMCxZlXhwQUWUzd0qcn" url="https://app.arcade.software/share/BtMCxZlXhwQUWUzd0qcn" %}
+{% embed url="https://app.arcade.software/share/BtMCxZlXhwQUWUzd0qcn" %}
 
 Registering is simple and free. No credit cards details needed!
 

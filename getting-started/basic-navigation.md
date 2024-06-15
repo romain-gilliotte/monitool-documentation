@@ -6,13 +6,13 @@ A "project" is a project in the sense understood in a humanitarian organization,
 
 # Multi-lingual support
 
-{% @arcade/embed flowId="jPsybJoyX3pJqDkbKbCp" url="https://app.arcade.software/share/jPsybJoyX3pJqDkbKbCp" %}
+{% embed url="https://app.arcade.software/share/jPsybJoyX3pJqDkbKbCp" %}
 
 Monitool is available in English, French, and Spanish. You can change the language by clicking on the language selector in the left menu of the project selection screen.
 
 # In-app help
 
-{% @arcade/embed flowId="qJM47B4JgnaXpho9f6Ia" url="https://app.arcade.software/share/qJM47B4JgnaXpho9f6Ia" %}
+{% embed url="https://app.arcade.software/share/qJM47B4JgnaXpho9f6Ia" %}
 
 Monitool has in-app help to guide you through the platform. You can access the help by hovering over the right-panel in every page.
 
@@ -20,7 +20,7 @@ The help will show a quick summary of the page you are on, frequently asked ques
 
 # Project configuration and user views
 
-{% @arcade/embed flowId="ocU45y3NRWTFUHnvIUIT" url="https://app.arcade.software/share/ocU45y3NRWTFUHnvIUIT" %}
+{% embed url="https://app.arcade.software/share/ocU45y3NRWTFUHnvIUIT" %}
 
 Each project is split into two main views: the configuration and user views:
 

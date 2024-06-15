@@ -8,7 +8,7 @@ For instance, if you are entering data from a monthly report, you can create a f
 
 ## How to enter data online
 
-{% @arcade/embed flowId="8UdHmQRRgZ6X2IcdIZAk" url="https://app.arcade.software/share/8UdHmQRRgZ6X2IcdIZAk" %}
+{% embed url="https://app.arcade.software/share/8UdHmQRRgZ6X2IcdIZAk" %}
 
 In the `Input` section of the user-view of each project, you will find the forms that you can fill in. Click on the form you want to fill in, and you will be taken to the data entry planning.
 
